@@ -1,0 +1,145 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: cornsilk;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+body {
+    background-image: url('image/pic8.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: linear-gradient(to bottom, #A6CF98, #739072);
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+header img {
+    border: 2px solid #3D3B40;
+    border-radius: 5px; 
+    margin-bottom: 5%;
+}
+
+.home a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3c434e;
+    text-decoration-line: none;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.home a :hover {
+    color: gold;
+}
+
+.purpose {
+    padding-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #FFFFEC;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.purpose p {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #333;
+}
+
+p {
+    color: #555;
+}
+
+.Materials {
+    padding-top: 2%;
+    background-color: #FFFFEC;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.diagram {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.blockDiagram, .flowChart, .schematicDiagram {
+    background-color: #FFFFEC;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.diagram img {
+    max-width: 100%;
+    height: auto;
+}
+
+.schematicDiagram img {
+    width: 100%; 
+    height: auto; 
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        background: linear-gradient(to bottom, #EEF296, #9ADE7B);
+        padding: 10px;
+        text-align: left;
+        padding: 10px;
+        font-size: 0.8em;
+    }    
+
+    header a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size:x-large;
+    }
+
+    h2 {
+        font-size: larger;
+    }
+        
+    .diagram {
+        flex-direction: column;
+    }
+
+    .blockDiagram, .flowChart, .schematicDiagram {
+        width: 100%;
+    }
+}

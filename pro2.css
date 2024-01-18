@@ -1,0 +1,114 @@
+body, h1, h2, p, ul, iframe {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: cornsilk;
+    padding: 20px;
+    font-size: large;
+    background-image: url('image/pic9.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.home a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3c434e;
+    text-decoration-line: none;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.home a :hover {
+    color: gold;
+}
+
+header {
+    background: linear-gradient(to bottom, #0766AD, #29ADB2);
+    color: #fff;
+    padding: 20px;
+    padding-bottom: 7%;
+}
+
+header img {
+    border-radius: 10%;
+    border: 2px solid #525CEB;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, p {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+hr {
+    border: 1px solid #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.Use,
+.words {
+    width: 48%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.Use h2,
+.words h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.Use li {
+    list-style: none;
+}
+
+.vd {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.vd iframe {
+    width: 60%;
+    max-width: 800px;
+    height: 315px;
+    margin: 20px auto;
+    border: 5px solid #525CEB;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        background: linear-gradient(to bottom, #749BC2, #BFCFE7);
+        padding: 10px;
+    }
+
+    header a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .vd iframe {
+        border: 5px solid #596FB7;
+    }
+}
